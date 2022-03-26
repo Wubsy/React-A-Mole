@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
